@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nirman Stores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/delivered.css">
+    <link rel="stylesheet" href="./assets/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+        
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg" style=" background-color: #40673b;">
+            <div class="container-fluid main-nav">
+                <a class="navbar-brand logo" href="#"><img src="images/Group 1.png" alt=""></a>
+                <div class="" id="">
+                    <form class="d-flex " role="search">
+                        <div class="input-group mb-3 search-box">
+                            <input type="text" class="form-control" placeholder="Search for Shoping..."
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <select class="form-select height-3" aria-label="Default select example">
+                                    <option selected> Choose Category...</option>
+                                    <option value="1">Machinery</option>
+                                    <option value="2">Equipments</option>
+                                    <option value="3">Construction Materials</option>
+                                    </select>
+                            <button class="btn search-button" type="button" id="button-addon2">
+                                <span class="dot"><img src="images/search.png" alt=""></span></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="nav-cart">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                               <span style="color: white;">Welcome Priyanshu,</span><br> <span
+                                    style="color: white;">Account</span><span><img src="images/arrow-drop-up-line 2.png" alt=""></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                <li><a class="dropdown-item" href="sign_up.html">Register</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item cart-icon">
+                            <a class="nav-link" style="color: white;" href="#"><i class="fa fa-shopping-cart" style="color: white;font-size: 1.5rem;"></i>My Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="m1">
+
+            <div class="shop">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <div class="d-flex">
+                                <div class="cat">
+                                    <i class="fa fa-bars" style="margin: 0.6rem;"></i>
+                                </div>
+                                <div class="">
+                                    Shop By <br> <b>Categories</b>
+                                </div>
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Machinery</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Equipments</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Construction Materials</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="navbar navbar-expand-lg nav1">
+                <div class="container">
+                    <div class="" style="width:100% ;">
+                        <button class="navbar-toggler toggle-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div>
+                            <div class="collapse navbar-collapse custom-nav" id="navbarSupportedContent1">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-margin">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Products</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Shop
+                                        </a>
+                                        <!-- <ul class="dropdown-menu"
+                                            style=" width: 63rem; text-align: center; left: -17rem;">
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-lg-3 drop">
+                                                        Machinery
+                                                    </div>
+                                                    <div class="col-lg-3 drop">
+                                                        Equipments
+                                                    </div>
+                                                    <div class="col-lg-3 drop">
+                                                        Construction Materials
+                                                    </div>
+                                                    <div class="col-lg-3">
+                                                        <img src="images/pro-back-06 1.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                        </ul> -->
+                                    </li>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <div class="container-fluid">
+
+        <div class="row main-content">
+
+            <div class="sidebar col-lg-1 col-md-1 col-sm-1">
+                <!-- <div class="sidenavbrand">
+                    <img src="./images/sidebar/user1.png" alt="">
+                </div> -->
+                <div class="sidenav-options">
+                    <a href="seller_dashboard.html" ><button class="circle"><i class="icon"><img src="./images/sidebar/grid_view.png" alt=""></i><span class="icon-name">Dashboard</span></button> </a>
+                        <a href="manage_products.html"><button class="circle"><i class="icon"><img src="./images/sidebar/gift.png" alt=""></i><span class="icon-name">Products</span></button></a>
+                        <a href="manage_orders.html"><button class="circle"><i class="icon"><img src="./images/sidebar/upcoming.png" alt=""></i><span class="icon-name">Orders</span></button></a>
+                        <a href="transaction_report.html"><button class="circle"><i class="icon"><img src="./images/sidebar/folder_shared.png" alt=""></i><span class="icon-name">Transaction</span></button></a>
+                        <a href="price.html"><button class="circle"><i class="icon"><img src="./images/sidebar/award.png" alt=""></i><span class="icon-name">Price</span></button></a>
+                        <a href="profile.html"><button class="circle"><i class="icon"><img src="./images/sidebar/user2.png" alt=""></i><span class="icon-name">Profile</span></button></a>
+                </div>
+            </div>
+            <div class="col-lg-11 col-md-11 col-sm-11 padd1">
+                <div class="complete-settle">
+                    <div>
+                        <h2>
+                            Complete Settlement for delivered Orders
+                        </h2>
+
+                    </div>
+                    <div class="email-section">
+                        <p>
+                            priyandhu garg<br>
+                            <span>priyanshugarg@gamil.com</span>
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="middle-content">
+
+                    <div class="row">
+    
+                        <div class="col-lg-6 col-12">
+    
+                            <div class="comment-thread">
+                                <!-- Comment 1 start -->
+                                <details open class="comment" id="comment-1">
+                                    <a href="#comment-1" class="comment-border-link">
+                                        <span class="sr-only">Jump to comment-1</span>
+                                    </a>
+                                    <summary>
+                                        <div class="comment-heading">
+                                            <div class="comment-voting">
+                                                <button type="button">
+                                                    <img src="images/Frame 42900.png" alt="">
+                                                </button>
+                                                
+                                            </div>
+                                            <div class="comment-info">
+                                                <a href="#" class="comment-author">15/06/2023 9:56  <span>
+                                                    order placed
+                                                </span></a>
+                                    
+                                            </div>
+                                        </div>
+                                
+                                    </summary>
+                                    <summary>
+                                        <div class="comment-heading">
+                                            <div class="comment-voting">
+                                                <button type="button">
+                                                    <img src="images/Frame 42900.png" alt="">
+                                                </button>
+                                                
+                                            </div>
+                                            <div class="comment-info">
+                                                <a href="#" class="comment-author">15/06/2023 9:56  <span>
+                                                    order placed
+                                                </span></a>
+                                    
+                                            </div>
+                                        </div>
+                                
+                                    </summary>
+                                    <summary>
+                                        <div class="comment-heading">
+                                            <div class="comment-voting">
+                                                <button type="button">
+                                                    <img src="images/Frame 42900.png" alt="">
+                                                </button>
+                                                
+                                            </div>
+                                            <div class="comment-info">
+                                                <a href="#" class="comment-author">15/06/2023 9:56  <span>
+                                                    order placed
+                                                </span></a>
+                                    
+                                            </div>
+                                        </div>
+                                
+                                    </summary>
+                                    <summary>
+                                        <div class="comment-heading">
+                                            <div class="comment-voting">
+                                                <button type="button">
+                                                    <img src="images/Frame 42900.png" alt="">
+                                                </button>
+                                                
+                                            </div>
+                                            <div class="comment-info">
+                                                <a href="#" class="comment-author">15/06/2023 9:56  <span>
+                                                    order placed
+                                                </span></a>
+                                    
+                                            </div>
+                                        </div>
+                                
+                                    </summary>
+                                    <summary>
+                                        <div class="comment-heading">
+                                            <div class="comment-voting">
+                                                <button type="button">
+                                                    <img src="images/Frame 42900.png" alt="">
+                                                </button>
+                                                
+                                            </div>
+                                            <div class="comment-info">
+                                                <a href="#" class="comment-author">15/06/2023 9:56  <span>
+                                                    order placed
+                                                </span></a>
+                                    
+                                            </div>
+                                        </div>
+                                
+                                    </summary>
+                                    <summary>
+                                        <div class="comment-heading">
+                                            <div class="comment-voting">
+                                                <button type="button">
+                                                    <img src="images/Frame 42900.png" alt="">
+                                                </button>
+                                                
+                                            </div>
+                                            <div class="comment-info">
+                                                <a href="#" class="comment-author">15/06/2023 9:56  <span>
+                                                    order placed
+                                                </span></a>
+                                    
+                                            </div>
+                                        </div>
+                                
+                                    </summary>
+                                </details>
+                                <!-- Comment 1 end -->
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-6 col-12" >
+                            <div class="image-section">
+
+                                <div>
+                                    <img src="images/pro-back-06 1.png" alt="">
+                                </div>
+                                <div class="image-details">
+
+                                    <h5>Circular Saw</h5>
+                                    <p>Rs.200000</p>
+                                    <p>
+                                        Circular Saw Raising a heavy fur muff that covered the whole of her lower arm towards the viewer regor then turned to look out the window.
+                                    </p>
+                                    <h5>Quantity : 1</h5>
+                                </div>
+                            </div>
+    
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

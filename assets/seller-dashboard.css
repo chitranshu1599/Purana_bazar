@@ -1,0 +1,390 @@
+.complete-settle{
+    display: flex;
+    justify-content: space-between;
+}
+.card-title{
+    font-size: 13px !important;
+}
+.card-body p {
+    font-size: 26px !important;
+    font-weight: 600;
+    margin-top: -7px;
+}
+.card-body{
+    padding: 11px !important;
+}
+.card-border{
+    max-width: 540px;
+     border-radius: 1rem;
+}
+.months{
+    margin-top: 0;
+}
+.graph{
+  width: 100%;
+  height: 22rem;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.shop{
+    display: none;
+}
+.nav1{
+    display: none;
+}
+.middle-board{
+    width: 100%;
+}
+.r1{
+    overflow-y: clip;
+    overflow-x: hidden;
+    height: auto;
+}
+.middle-margin{
+    margin: 0rem 5rem 0 5rem;
+}
+.main-content{
+    margin: 0;
+    padding: 0.5rem 1.5rem;
+    justify-content: space-between;
+}
+.circle {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+.icon-name {
+    border: 2px solid white;
+    width: 7rem;
+    position: absolute;
+    top: 15%;
+    left: 210%;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(196, 202, 212, 0.24);
+    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 1;
+  }
+  
+  .circle:hover .icon-name {
+    opacity: 1;
+    visibility: visible;
+  }
+  .circle:hover {
+    background-color: #d6d2d2;
+  }
+  .bg-clr{
+    background-color: #d6d2d2;
+  }
+.nav-link{
+    text-align: end;
+}
+
+
+
+/* SIDEBAR  */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.grey{
+    color: #7D8BA1 ;
+}
+.sidebar {
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    box-shadow: 0px 2px 8px 0px #C4CAD4;
+    /* margin: 1em 0 0 1em; */
+    width: 5rem;
+}
+
+.sidenavbrand {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: thin solid #F3F4F6;
+    margin-bottom: .5rem;
+    
+}
+
+.sidenav-options {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 2rem;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidenav-options a {
+    margin: .5rem 0 1.5rem;
+}
+
+
+/* END SIDEBAR */
+
+
+
+
+
+
+/* Header CSS */
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.logo img{
+    width: 6rem;
+}
+.main-nav{
+   
+    align-items: baseline !important;
+    margin-left: 7rem;
+}
+.search-box input{
+    width: 24rem !important;
+    height: 3rem;
+    border-radius: 2rem;
+}
+.nav-cart li{
+    margin-right: 2rem;
+}
+.height-3{
+    height: 3rem;
+    font-size: 0.8rem;
+    width: 11rem !important;
+}
+
+.nav-margin li a{
+    margin: 0 1rem;
+}
+.search-button{
+    background-color: white;
+    border-radius: 0 2rem 2rem 0;
+    align-items: center;
+    display: flex;
+}
+.search-button:hover{
+    background-color: white;
+}
+.toggle-button{
+    right: 2rem;
+    position: fixed;
+}
+.shop{
+    margin-left: 5rem;
+}
+.dot {
+    height: 34px;
+    width: 34px;
+    background-color:#40673b;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.search-button img{
+    width: 1rem;
+    margin-top: 0.6rem;
+}
+.cat{
+    margin: 0.5rem;
+    height: 35px;
+    width: 35px;
+    background-color: #fff107;
+    border-radius: 15%;
+    display: inline-block;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.nav-link{
+    font-size: 0.8rem !important;
+}
+.nav1{
+    margin-left: 5rem;
+}
+.drop{
+    border-right: 1px solid grey;
+}
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 2px 2px #fff107;
+    /* border: 2px solid #fff107; */
+}
+.custom-nav{   
+    margin-top: 41px;
+    margin-right: -9px;
+    border: 1px solid #00000047;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background: #fff;
+}
+@media screen and (min-width:801px) and (max-width: 1105px) {
+    .search-box input{
+        width: 14rem !important;
+        height: 3rem;
+        border-radius: 2rem;
+    }
+    .main-nav{
+        margin: 0;
+    }
+    .card-body p {
+        font-size: 20px !important;
+        font-weight: 600;
+        margin-top: -7px;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    .search-box{
+        display: none;
+    }
+    .cart-icon{
+        display: none;
+    }
+    
+}
+
+
+/* END HEADER CSS */
+
+
+
+
+/* Media Query Mobile devices */
+
+@media (min-width:300px) and (max-width: 579px){
+    .sidebar {
+        height: 10vh;
+        position: fixed;
+        bottom: 0;
+        background-color: #ffffff;
+        z-index: 1;
+        margin: 0;
+        width: 100%;
+        left: 0;
+    right: 0;
+    }
+
+    .sidenavbrand {
+        display: none;
+    }
+    .card-body p {
+        font-size: 20px !important;
+        font-weight: 600;
+        margin-top: -7px;
+    }
+
+    .sidenav-options {
+        padding: unset;
+        margin-top: 0;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .nav-cart {
+        margin-right: 1rem;
+    }
+    .main-nav {
+        margin-left: 1rem;
+    }
+    .cart-icon{
+        display: none;
+    }
+    .shop{
+        display: none;
+        margin-left: 0rem;
+    }
+    .nav1{
+        display: none;
+    }
+    .user{
+        display: none;
+    }
+    .complete-settle{
+        display: flex;
+        justify-content: space-between;
+    }
+    .row-img{
+        display: flex;
+        align-items: center;
+        padding: 0 0.2rem;
+        height: 5rem;
+    }
+    .card-border {
+        max-width: 540px;
+        border-radius: 9px;
+    }
+.middle-res{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.months {
+    margin-top: 1rem;
+}
+/* .complete-settle{
+    display: none;
+} */
+.nav1{
+    position: absolute;
+    right: 1rem;
+
+}
+.toggle-button{
+    position: absolute;
+    right: 0;
+}
+.middle-board{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+.middle-margin{
+    margin: 0rem 0rem 0 0rem;
+}
+.main-content{
+    margin: unset;
+    padding: 0rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+.r1 {
+    padding: 1rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+}
+.icon-name{
+    display: none;
+}
+
+}
+
+@media (min-width:520px) and (max-width: 991px){
+
+    .card-body p {
+        font-size: 20px !important;
+        font-weight: 600;
+        margin-top: -7px;
+    }
+    .middle-margin{
+        margin: unset;
+    }
+}

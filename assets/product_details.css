@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_headng{
+    font-size: 1.5rem;
+}
+
+label{
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+input::placeholder{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.sidebar {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    box-shadow: 0px 2px 8px 0px #C4CAD4;
+    /* margin: 1em 0 0 1em; */
+    width: 5rem;
+}
+
+.sidenavbrand {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: thin solid #F3F4F6;
+    margin-bottom: .5rem;
+}
+
+.sidenav-options {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem 2rem;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidenav-options a {
+    margin: .5rem 0 1.5rem;
+}
+.cart-icon{
+    display: none;
+}
+.card{
+    margin-top: 1rem;
+    border: none;
+}
+.card-body{
+    padding: 2rem;
+    border: 2px solid gray;
+    border-radius: 0.8rem;
+}
+input{
+    height: 2.3rem;
+}
+select{
+    height: 2.3rem;
+}
+.row{
+    margin: 0;
+}
+.add-btn{
+    float: right;
+}
+.add-btn .btn-warning{
+    background-color: #40673b;
+    border-color: #40673b;
+    color: #fff;
+}
+
+input[type="file"]::file-selector-button {
+    color: black;
+    padding: 0.5em;
+    background-color: #40673b;
+    border-radius: 3px;
+}
+.heading-part{
+    display: flex;
+    justify-content: space-between;
+}
+.mrg-btm{
+    margin-bottom: 7rem;
+}
+.pro-img img{
+    width: 6rem;
+}
+.pro-img{
+    padding: 0;
+}
+.pro-video{
+
+}
+.text-area{
+    height: 40vh;
+    width: 100%;
+}
+.circle {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+.icon-name {
+    border: 2px solid white;
+    width: 7rem;
+    position: absolute;
+    top: 15%;
+    left: 210%;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(196, 202, 212, 0.24);
+    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 1;
+  }
+  
+  .circle:hover .icon-name {
+    opacity: 1;
+    visibility: visible;
+  }
+  .circle:hover {
+    background-color: #d6d2d2;
+  }
+
+@media (min-width: 250px) and (max-width: 520px) {
+    .sidebar {
+        height: 10vh;
+        position: fixed;
+        bottom: 0;
+        background-color: #ffffff;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .sidenavbrand {
+        display: none;
+    }
+
+    .sidenav-options {
+        padding: unset;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .card-body{
+        padding: 0;
+    }
+    .text-area{
+        height: 20vh;
+        width: 100%;
+    }
+    .icon-name{
+        display: none;
+    }
+    
+
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+
+    .sidenav-options {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 1rem 2rem;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+
+    .padd1{
+        width: 83%;
+    }
+
+}
