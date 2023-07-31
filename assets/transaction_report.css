@@ -40,9 +40,9 @@
 }
 .r1{
     padding: 1rem;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
-    height: 100vh;
+    height: auto;
 }
 .lower-dropdown{
     display: flex;
@@ -52,9 +52,9 @@
    
     width: 8rem;
     border-radius: 8px;
-border: 1px solid #40673b;
-background: var(--gray-white, #FFF);
-box-shadow: 0px 0px 0px 3px rgba(249, 208, 16, 0.10);
+    border: 1px solid #40673b;
+    background: var(--gray-white, #FFF);
+    box-shadow: 0px 0px 0px 3px rgba(249, 208, 16, 0.10);
 }
 .sele1{
     height: 2.5rem;
@@ -67,8 +67,9 @@ box-shadow: 0px 0px 0px 3px rgba(249, 208, 16, 0.10);
     justify-content: space-between;
 }
 .main-content{
-        margin: 0;
-        padding: 0.5rem 1.5rem;  
+    margin: 0;
+    padding: 0.5rem 1.5rem;  
+    justify-content: space-between;
 }
 .middle-margin{
     margin: 0rem 5rem 0 5rem;
@@ -87,7 +88,7 @@ body {
     color: #7D8BA1 ;
 }
 .sidebar {
-    height: 100vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     border-radius: 24px;

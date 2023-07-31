@@ -3,7 +3,7 @@ body {
 }
 
 .sidebar {
-    height: 100vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     border-radius: 24px;
@@ -51,6 +51,10 @@ body {
     font-weight: 600;
 }
 
+.padd1{
+    padding: 1rem;
+}
+
 .amount {
     display: flex;
     width: 80%;
@@ -61,6 +65,7 @@ body {
 
 .main-content{   
    padding: 0.5rem 1.5rem;
+   justify-content: space-between;
 }
 
 .amount h1 {

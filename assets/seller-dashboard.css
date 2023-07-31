@@ -41,6 +41,7 @@
     overflow-y: clip;
     overflow-x: hidden;
     height: auto;
+    padding: 1rem;
 }
 .middle-margin{
     margin: 0rem 5rem 0 5rem;
@@ -102,7 +103,7 @@ body {
     color: #7D8BA1 ;
 }
 .sidebar {
-    height: 82vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     border-radius: 24px;
@@ -149,12 +150,11 @@ body{
     margin: 0px;
 }
 .logo img{
-    width: 6rem;
+    width: 12rem;
 }
 .main-nav{
-   
-    align-items: baseline !important;
-    margin-left: 7rem;
+    align-items: center !important;
+    padding: 0px 60px 0px 88px;
 }
 .search-box input{
     width: 24rem !important;

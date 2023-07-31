@@ -30,7 +30,7 @@ body {
 }
 
 .login-input input:focus {
-    border: 1px solid #FFD200 !important;
+    border: 1px solid #40673b !important;
     box-shadow: none !important;
 }
 /* .input-grp{
@@ -73,6 +73,7 @@ body {
 .login-para a {
     text-decoration: none !important;
     font-weight: 600;
+    color: #40673b;
 }
 /* .custom-nav{
     display: none;

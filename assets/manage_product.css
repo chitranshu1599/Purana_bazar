@@ -81,7 +81,7 @@ thead{
 }
 
 .sidebar {
-    height: 100vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     border-radius: 24px;
@@ -112,7 +112,7 @@ thead{
     margin: .5rem 0 1.5rem;
 }
 .padd-1{
-    padding: 2rem;
+    padding: 1rem;
 }
 .table-responsive {
     overflow-x: inherit;
@@ -124,7 +124,8 @@ thead{
 }
 .main_content{
     margin: 0;
-    padding: 0.5rem 1.5rem
+    padding: 0.5rem 1.5rem;
+    justify-content: space-between;
 }
 .circle {
     position: relative;

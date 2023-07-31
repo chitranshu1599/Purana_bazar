@@ -5,12 +5,11 @@ body{
     margin: 0px;
 }
 .logo img{
-    width: 6rem;
+    width: 12rem;
 }
 .main-nav{
-   
-    align-items: baseline !important;
-    margin-left: 7rem;
+    align-items: center !important;
+    padding: 0px 60px 0px 88px;
 }
 .search-box input{
     width: 19rem !important;
@@ -68,7 +67,7 @@ body{
 
 .custom-nav .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: #40673b;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
 }
 
