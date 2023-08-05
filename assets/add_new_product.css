@@ -22,7 +22,7 @@ input::placeholder{
     font-weight: 600;
 }
 .sidebar {
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     border-radius: 24px;

@@ -24,6 +24,14 @@ body {
     margin-bottom: 1rem;
 }
 
+.login-div-1 .input-btn {
+    border-radius: 0 3px 3px 0!important;
+    background-color: #40673b !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    border: none !important;
+}
+
 .login-input label {
     font-weight: 600;
     margin-bottom: .5rem;
